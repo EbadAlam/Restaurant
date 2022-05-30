@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Description Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="text/css" href="./assets/images/icon.png">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+  <style type="text/css">
+    *{
+      margin:0px;
+      padding:0px;
+      scroll-behavior: smooth;
+    }
+    .menu_description{
+      max-width: 1200px;
+      margin:0 auto;
+      height: 800px;
+    }
+    .image img{
+      width:100%;
+      height:100%;
+    }
+    .image{
+      height: 500px
+    }
+    .description{
+      height: 300px
+    }
+    .bg_img{
+      background-color: black;
+      color:white;
+      padding-top: 50px;
+      padding-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+<div class="bg_img">
+  <section id="1" class="menu_description">
+    <div class="image">
+      <img src="./assets/images/margherita.jpg">
+    </div>
+    <div class="description">
+      <h1><b>Margherita</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$12.50</span></h1>
+      <p class="w3-text-grey">Fresh tomatoes, fresh mozzarella, fresh basil</p>
+    </div>
+  </section>
+  <section id="2" class="menu_description">
+    <div class="image">
+      <img src="./assets/images/formaggio.jpg">
+    </div>
+    <div class="description">
+      <h1><b>Formaggio</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$15.50</span></h1>
+      <p class="w3-text-grey">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</p>
+    </div>
+  </section>
+  <section id="3" class="menu_description">
+    <div class="image">
+      <img src="./assets/images/lasagna.jpg">
+    </div>
+    <div class="description">
+      <h1><b>Lasagna</b> <span class="w3-tag w3-grey w3-round">Popular</span> <span class="w3-right w3-tag w3-dark-grey w3-round">$13.50</span></h1>
+      <p class="w3-text-grey">Special sauce, mozzarella, parmesan, ground beef</p>
+      
+    </div>
+  </section>
+  <section id="4" class="menu_description">
+    <div class="image">
+      <img src="./assets/images/ravioli.jpg">
+    </div>
+    <div class="description">
+      <h1><b>Ravioli</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$14.50</span></h1>
+      <p class="w3-text-grey">Ravioli filled with cheese</p>
+    </div>
+  </section>
+  <section id="5" class="menu_description">
+    <div class="image">
+      <img src="./assets/images/soup.jpg">
+    </div>
+    <div class="description">
+     <h1><b>Today's Soup</b> <span class="w3-tag w3-grey w3-round">Seasonal</span><span class="w3-right w3-tag w3-dark-grey w3-round">$5.50</span></h1>
+      <p class="w3-text-grey">Ask the waiter</p>
+  </section>
+  <section id="6" class="menu_description">
+    <div class="image">
+      <img src="./assets/images/bruschetta.jpg">
+    </div>
+    <div class="description">
+      <h1><b>Bruschetta</b> <span class="w3-right w3-tag w3-dark-grey w3-round">$8.50</span></h1>
+      <p class="w3-text-grey">Bread with pesto, tomatoes, onion, garlic</p>
+    </div>
+  </section>
+</div>
+</body>
+<script type="text/javascript">
+  window.onload = () => {
+    // alert('dasdasd');
+  const id = localStorage.getItem('id');
+  if (id == 2) {
+  window.scroll(0,850);  
+  }
+  if (id == 3) {
+  window.scroll(0,1650);  
+  }
+  if (id == 4) {
+  window.scroll(0,2500);  
+  }
+  if (id == 5) {
+  window.scroll(0,3300);  
+  }
+  if (id == 6) {
+  window.scroll(0,4150);  
+  }
+  }
+</script>
+</html>
