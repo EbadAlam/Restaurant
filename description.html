@@ -99,21 +99,24 @@
   window.onload = () => {
     // alert('dasdasd');
   const id = localStorage.getItem('id');
-  if (id == 2) {
-  window.scroll(0,850);  
-  }
-  if (id == 3) {
-  window.scroll(0,1650);  
-  }
-  if (id == 4) {
-  window.scroll(0,2500);  
-  }
-  if (id == 5) {
-  window.scroll(0,3300);  
-  }
-  if (id == 6) {
-  window.scroll(0,4150);  
-  }
+  // if (id == 2) {
+  // window.scroll(0,850);  
+  // }
+  // if (id == 3) {
+  // window.scroll(0,1650);  
+  // }
+  // if (id == 4) {
+  // window.scroll(0,2500);  
+  // }
+  // if (id == 5) {
+  // window.scroll(0,3300);  
+  // }
+  // if (id == 6) {
+  // window.scroll(0,4150);  
+  // }
+  const coordinates = id * 800;
+  // console.log(coordinates);
+  window.scroll(0,coordinates);  
   }
 </script>
 </html>
